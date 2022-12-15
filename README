@@ -1,0 +1,7 @@
+To compile and run, please use one of the Slurm scripts mentioned below
+1)	luFactorization.sh (To run scaling analysis for all implementations over different dataset sizes)
+2)	threadOptimization.sh (To run all implementations for a matrix of length 1024 over different OpenMP thread counts)
+3)	blockWidthOptimization.sh (To run column block implementation for a matrix of size 1024, 25 threads over a range of block widths)
+4)	streamOptimization.sh (To run all implementations for a matrix of length 1024, 25 threads over a range of CUDA stream counts)
+
+The binary in each case is "./luFactorization"
